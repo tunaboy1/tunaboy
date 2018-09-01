@@ -1,0 +1,148 @@
+body{
+	background-color: #fafafa; 
+}
+
+.site{
+	height: 424px;
+	width: 424px; 
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.bg-image-one-div{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+	background-color: #fafafa;
+	z-index: 1;
+}
+
+.bg-image-one{
+	opacity: 0.3;
+	width: 270px;
+	margin: 0;
+}
+
+.bg-image-two-div{
+	position: absolute;
+    left: 162px;
+    top: 78px;
+	background-color: #fafafa;
+	z-index: 2;
+}
+
+.bg-image-two{
+	opacity: 0.3;
+	width: 270px;
+	margin: 0;
+}
+
+.bg-collage{
+	z-index: 3;
+}
+
+.back-soon{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+	z-index: 6;
+}
+
+.back-soon-image{
+	z-index: 4;
+	width: 200px;
+}
+
+
+@keyframes blinkone {
+
+    0% {
+      opacity: .2;
+    }
+
+    20% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: .2;
+    }
+}
+
+@keyframes blinktwo {
+
+    0% {
+      opacity: .2;
+    }
+
+    20% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: .2;
+    }
+}
+
+@keyframes blinkthree {
+
+    0% {
+      opacity: .2;
+    }
+
+    20% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: .2;
+    }
+}
+
+
+.dot-dot-dot{
+	position: absolute;
+    left: 171px;
+    top: 72px;
+	z-index: 5;
+}
+
+.dot-one{
+	width: 7px;
+	animation-name: blinkone;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+.dot-two{
+	width: 7px;
+	animation-name: blinktwo;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+	animation-delay: .2s;
+}
+
+.dot-three{
+	width: 7px;
+	animation-name: blinkthree;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+	animation-delay: .4s;
+}
+
+
+
+
+
+
+
+
+
