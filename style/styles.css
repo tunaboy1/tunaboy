@@ -59,7 +59,7 @@ body{
 }
 
 
-@keyframes blinkone {
+/*@keyframes blinkone {
 
     0% {
       opacity: .2;
@@ -89,7 +89,7 @@ body{
     }
 }
 
-/*@keyframes blinkthree {
+@keyframes blinkthree {
 
     0% {
       opacity: .2;
