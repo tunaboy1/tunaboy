@@ -59,52 +59,6 @@ body{
 }
 
 
-/*@keyframes blinkone {
-
-    0% {
-      opacity: .2;
-    }
-
-    20% {
-      opacity: 1;
-    }
-
-    100% {
-      opacity: .2;
-    }
-}
-
-@keyframes blinktwo {
-
-    0% {
-      opacity: .2;
-    }
-
-    20% {
-      opacity: 1;
-    }
-
-    100% {
-      opacity: .2;
-    }
-}
-
-@keyframes blinkthree {
-
-    0% {
-      opacity: .2;
-    }
-
-    20% {
-      opacity: 1;
-    }
-
-    100% {
-      opacity: .2;
-    }
-}*/
-
-
 .dot-dot-dot{
 	position: absolute;
     left: 171px;
@@ -114,28 +68,14 @@ body{
 
 .dot-one{
 	width: 7px;
-	animation-name: blinkone;
-    animation-duration: 1.4s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
 }
 
 .dot-two{
 	width: 7px;
-	animation-name: blinktwo;
-    animation-duration: 1.4s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-	animation-delay: .2s;
 }
 
 .dot-three{
 	width: 7px;
-	animation-name: blinkthree;
-    animation-duration: 1.4s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-	animation-delay: .4s;
 }
 
 .footer{
@@ -155,7 +95,59 @@ body{
 
 
 
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { 
 
+.trademark{
+font-size: 24px;
+}
 
+.footer{
+    height: 100px;
+}
 
+.bg-image-one{
+    opacity: 0.3;
+    width: 500px;
+    margin: 0;
+}
 
+.bg-image-two-div{
+    left: 162px;
+    top: 78px;
+}
+
+.bg-image-two{
+    width: 500px;
+}
+
+.back-soon-image{
+    width: 400px;
+}
+
+.site {
+    height: 724px;
+    width: 634px;
+    top: 40%;
+}
+
+.dot-one{
+    width: 17px;
+}
+
+.dot-two{
+    width: 17px;
+}
+
+.dot-three{
+    width: 17px;
+}
+
+.dot-dot-dot{    
+    left: 341px;
+    top: 154px;
+}
+
+}
