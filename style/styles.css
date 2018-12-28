@@ -56,16 +56,6 @@ body{
     padding: 20px;
 }
 
-.footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    height: 50px;
-}
-
-
 
 @media only screen 
     and (device-width : 375px) 
@@ -76,9 +66,8 @@ body{
 .site {
     height: 724px;
     width: 634px;
-    top: 40%;
+    top: 50%;
 }
-
 
 
 }
