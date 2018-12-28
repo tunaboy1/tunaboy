@@ -5,7 +5,7 @@ body{
 .site{
 	height: 424px;
 	width: 424px; 
-	margin: 0;
+	margin: 0px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -19,6 +19,36 @@ body{
     left: 50%;
     transform: translate(-50%, -50%); 
 	z-index: 6;
+    text-align: center;
+}
+
+.logo{
+    width: 150px;
+    margin-bottom: 32px;
+}
+
+.whatsappimg{
+    width: 18px;
+    margin-right: 8px;
+    float: left;
+}
+
+.whatsappus {
+    color: white;
+    font-size: 16px;
+    font-family: "helvetica";
+    margin: 0px;
+}
+
+.messageus{
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 125px;
+    padding: 24px;
 }
 
 .footer{
