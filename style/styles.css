@@ -67,9 +67,6 @@ body{
     and (device-height : 667px) 
     and (-webkit-device-pixel-ratio : 2) { 
 
-.footer{
-    height: 100px;
-}
 
 .site {
     height: 724px;
