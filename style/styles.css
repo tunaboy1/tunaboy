@@ -22,8 +22,13 @@ body{
     text-align: center;
 }
 
-.logo{
-    width: 150px;
+.logoimg{
+    width: 120px;
+    margin-bottom: 24px;
+}
+
+.letteringimg{
+    width: 200px;
     margin-bottom: 32px;
 }
 
@@ -48,7 +53,7 @@ body{
     text-decoration: none;
     display: inline-block;
     width: 125px;
-    padding: 24px;
+    padding: 20px;
 }
 
 .footer{
@@ -73,5 +78,7 @@ body{
     width: 634px;
     top: 40%;
 }
+
+
 
 }
