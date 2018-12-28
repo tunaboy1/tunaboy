@@ -80,18 +80,18 @@ body{
 }
 
 .whatsappimg{
-    width: 36px;
-    margin-right: 16px;
+    width: 44px;
+    margin-right: 20px;
 }
 
 .messageus{
-    border-radius: 80px;
-    width: 250px;
-    padding: 40px;
+    border-radius: 100px;
+    width: 312px;
+    padding: 50px;
 }
 
 .whatsappus {
-    font-size: 32px;
+    font-size: 40px;
 }
 
 }
