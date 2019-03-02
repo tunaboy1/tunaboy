@@ -1,0 +1,563 @@
+body{
+	background-color: #fafafa; 
+}
+
+.site{
+	height: 424px;
+	width: 424px; 
+	margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.centered{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+	z-index: 6;
+    text-align: center;
+}
+
+.logoimg{
+    width: 120px;
+    margin-bottom: 24px;
+}
+
+.letteringimg{
+    width: 200px;
+    margin-bottom: 16px;
+}
+
+.whatsappimg{
+    width: 18px;
+    margin-right: 8px;
+    float: left;
+}
+
+.whatsappus {
+    color: white;
+    font-size: 16px;
+    font-family: "helvetica";
+    margin: 0px;
+}
+
+.messageus{
+    background-color: #25d366;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 125px;
+    padding: 20px;
+}
+
+.contactus{
+    color: black;
+    font-size: 16px;
+    font-family: "helvetica";
+    margin: 0px 0px 8px 0px;
+}
+
+
+.desktopnumber{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 122px;
+    padding: 16px;
+    color: black;
+    font-size: 16px;
+    font-family: "helvetica";
+    margin: 0px;
+}
+
+.button{
+    display: none;
+    margin-top: 16px;
+}
+
+.desktopmessage{
+    display: block;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.site {
+    height: 724px;
+    width: 634px;
+    top: 50%;
+}
+
+.logoimg{
+    width: 280px;
+    margin-bottom: 56px;
+}
+
+.letteringimg{
+    width: 400px;
+    margin-bottom: 72px;
+}
+
+.whatsappimg{
+    width: 44px;
+    margin-right: 20px;
+}
+
+.messageus{
+    border-radius: 100px;
+    width: 312px;
+    padding: 50px;
+}
+
+.whatsappus {
+    font-size: 40px;
+}
+
+.button{
+    display: block;
+}
+
+.desktopmessage{
+    display: none;
+}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+.site {
+    height: 724px;
+    width: 634px;
+    top: 50%;
+}
+
+.logoimg{
+    width: 280px;
+    margin-bottom: 56px;
+}
+
+.letteringimg{
+    width: 400px;
+    margin-bottom: 72px;
+}
+
+.whatsappimg{
+    width: 44px;
+    margin-right: 20px;
+}
+
+.messageus{
+    border-radius: 100px;
+    width: 312px;
+    padding: 50px;
+}
+
+.whatsappus {
+    font-size: 40px;
+}
+
+.button{
+    display: block;
+}
+
+.desktopmessage{
+    display: none;
+}
+
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+.site {
+    height: 724px;
+    width: 634px;
+    top: 50%;
+}
+
+.logoimg{
+    width: 280px;
+    margin-bottom: 56px;
+}
+
+.letteringimg{
+    width: 400px;
+    margin-bottom: 72px;
+}
+
+.whatsappimg{
+    width: 44px;
+    margin-right: 20px;
+}
+
+.messageus{
+    border-radius: 100px;
+    width: 312px;
+    padding: 50px;
+}
+
+.whatsappus {
+    font-size: 40px;
+}
+
+.button{
+    display: block;
+}
+
+.desktopmessage{
+    display: none;
+}
+
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+.site {
+    height: 724px;
+    width: 634px;
+    top: 50%;
+}
+
+.logoimg{
+    width: 280px;
+    margin-bottom: 56px;
+}
+
+.letteringimg{
+    width: 400px;
+    margin-bottom: 72px;
+}
+
+.whatsappimg{
+    width: 44px;
+    margin-right: 20px;
+}
+
+.messageus{
+    border-radius: 100px;
+    width: 312px;
+    padding: 50px;
+}
+
+.whatsappus {
+    font-size: 40px;
+}
+
+.button{
+    display: block;
+}
+
+.desktopmessage{
+    display: none;
+}
+
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+.site {
+    height: 724px;
+    width: 634px;
+    top: 50%;
+}
+
+.logoimg{
+    width: 280px;
+    margin-bottom: 56px;
+}
+
+.letteringimg{
+    width: 400px;
+    margin-bottom: 72px;
+}
+
+.whatsappimg{
+    width: 44px;
+    margin-right: 20px;
+}
+
+.messageus{
+    border-radius: 100px;
+    width: 312px;
+    padding: 50px;
+}
+
+.whatsappus {
+    font-size: 40px;
+}
+
+.button{
+    display: block;
+}
+
+.desktopmessage{
+    display: none;
+}
+
+}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+.site {
+    height: 724px;
+    width: 634px;
+    top: 50%;
+}
+
+.logoimg{
+    width: 280px;
+    margin-bottom: 56px;
+}
+
+.letteringimg{
+    width: 400px;
+    margin-bottom: 72px;
+}
+
+.whatsappimg{
+    width: 44px;
+    margin-right: 20px;
+}
+
+.messageus{
+    border-radius: 100px;
+    width: 312px;
+    padding: 50px;
+}
+
+.whatsappus {
+    font-size: 40px;
+}
+
+.button{
+    display: block;
+}
+
+.desktopmessage{
+    display: none;
+}
+
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+.site {
+    height: 724px;
+    width: 634px;
+    top: 50%;
+}
+
+.logoimg{
+    width: 280px;
+    margin-bottom: 56px;
+}
+
+.letteringimg{
+    width: 400px;
+    margin-bottom: 72px;
+}
+
+.whatsappimg{
+    width: 44px;
+    margin-right: 20px;
+}
+
+.messageus{
+    border-radius: 100px;
+    width: 312px;
+    padding: 50px;
+}
+
+.whatsappus {
+    font-size: 40px;
+}
+
+.button{
+    display: block;
+}
+
+.desktopmessage{
+    display: none;
+}
+
+}
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+.site {
+    height: 724px;
+    width: 634px;
+    top: 50%;
+}
+
+.logoimg{
+    width: 280px;
+    margin-bottom: 56px;
+}
+
+.letteringimg{
+    width: 400px;
+    margin-bottom: 72px;
+}
+
+.whatsappimg{
+    width: 44px;
+    margin-right: 20px;
+}
+
+.messageus{
+    border-radius: 100px;
+    width: 312px;
+    padding: 50px;
+}
+
+.whatsappus {
+    font-size: 40px;
+}
+
+.button{
+    display: block;
+}
+
+.desktopmessage{
+    display: none;
+}
+
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+.site {
+    height: 724px;
+    width: 634px;
+    top: 50%;
+}
+
+.logoimg{
+    width: 280px;
+    margin-bottom: 56px;
+}
+
+.letteringimg{
+    width: 400px;
+    margin-bottom: 72px;
+}
+
+.whatsappimg{
+    width: 44px;
+    margin-right: 20px;
+}
+
+.messageus{
+    border-radius: 100px;
+    width: 312px;
+    padding: 50px;
+}
+
+.whatsappus {
+    font-size: 40px;
+}
+
+.button{
+    display: block;
+}
+
+.desktopmessage{
+    display: none;
+}
+
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+.site {
+    height: 724px;
+    width: 634px;
+    top: 50%;
+}
+
+.logoimg{
+    width: 280px;
+    margin-bottom: 56px;
+}
+
+.letteringimg{
+    width: 400px;
+    margin-bottom: 72px;
+}
+
+.whatsappimg{
+    width: 44px;
+    margin-right: 20px;
+}
+
+.messageus{
+    border-radius: 100px;
+    width: 312px;
+    padding: 50px;
+}
+
+.whatsappus {
+    font-size: 40px;
+}
+
+.button{
+    display: block;
+}
+
+.desktopmessage{
+    display: none;
+}
+
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+.site {
+    height: 724px;
+    width: 634px;
+    top: 50%;
+}
+
+.logoimg{
+    width: 280px;
+    margin-bottom: 56px;
+}
+
+.letteringimg{
+    width: 400px;
+    margin-bottom: 72px;
+}
+
+.whatsappimg{
+    width: 44px;
+    margin-right: 20px;
+}
+
+.messageus{
+    border-radius: 100px;
+    width: 312px;
+    padding: 50px;
+}
+
+.whatsappus {
+    font-size: 40px;
+}
+
+.button{
+    display: block;
+}
+
+.desktopmessage{
+    display: none;
+}
+
+}
