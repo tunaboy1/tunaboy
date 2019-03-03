@@ -29,10 +29,12 @@ body{
 .logoimg{
     height: 72px;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .letteringimg{
     height: 48px;
+    display: inline-block;
 }
 
 .message{
@@ -95,15 +97,7 @@ body{
     top: 50%;
 }
 
-.logoimg{
-    width: 280px;
-    margin-bottom: 56px;
-}
 
-.letteringimg{
-    width: 400px;
-    margin-bottom: 72px;
-}
 
 }
 
@@ -115,15 +109,6 @@ body{
     top: 50%;
 }
 
-.logoimg{
-    width: 280px;
-    margin-bottom: 56px;
-}
-
-.letteringimg{
-    width: 400px;
-    margin-bottom: 72px;
-}
 
 }
 
@@ -136,14 +121,52 @@ body{
     top: 50%;
 }
 
+.logo{
+    width: 404px;
+}
+
 .logoimg{
-    width: 280px;
-    margin-bottom: 56px;
+    height: 120px;
+    margin-bottom: 32px;
 }
 
 .letteringimg{
-    width: 400px;
-    margin-bottom: 72px;
+    height: 80px;
+}
+
+.message{
+    width: 670px;
+    line-height: 64px;
+    font-size: 40px;
+    margin: 48px 0px 48px 0px;
+}
+
+.insta{
+    width: 404px;
+    border-width: 4px;
+    border-radius: 12px;
+
+}
+
+.igimg{
+    height: 64px;
+    margin: 48px 0px 8px 0px;
+}
+
+.followus{
+    border-radius: 12px;
+    padding: 16px 32px 16px 32px;
+    margin: 16px 0px 48px 0px;
+}
+
+.handle{
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.followp{
+    font-size: 36px;
+    line-height: 48px;
 }
 
 }
@@ -157,14 +180,52 @@ body{
     top: 50%;
 }
 
+.logo{
+    width: 404px;
+}
+
 .logoimg{
-    width: 280px;
-    margin-bottom: 56px;
+    height: 120px;
+    margin-bottom: 32px;
 }
 
 .letteringimg{
-    width: 400px;
-    margin-bottom: 72px;
+    height: 80px;
+}
+
+.message{
+    width: 670px;
+    line-height: 64px;
+    font-size: 40px;
+    margin: 48px 0px 48px 0px;
+}
+
+.insta{
+    width: 404px;
+    border-width: 4px;
+    border-radius: 12px;
+
+}
+
+.igimg{
+    height: 64px;
+    margin: 48px 0px 8px 0px;
+}
+
+.followus{
+    border-radius: 12px;
+    padding: 16px 32px 16px 32px;
+    margin: 16px 0px 48px 0px;
+}
+
+.handle{
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.followp{
+    font-size: 36px;
+    line-height: 48px;
 }
 
 }
@@ -177,37 +238,52 @@ body{
     top: 50%;
 }
 
+.logo{
+    width: 404px;
+}
+
 .logoimg{
-    width: 280px;
-    margin-bottom: 56px;
+    height: 120px;
+    margin-bottom: 32px;
 }
 
 .letteringimg{
-    width: 400px;
-    margin-bottom: 72px;
+    height: 80px;
 }
 
-.whatsappimg{
-    width: 44px;
-    margin-right: 20px;
-}
-
-.messageus{
-    border-radius: 100px;
-    width: 312px;
-    padding: 50px;
-}
-
-.whatsappus {
+.message{
+    width: 670px;
+    line-height: 64px;
     font-size: 40px;
+    margin: 48px 0px 48px 0px;
 }
 
-.button{
-    display: block;
+.insta{
+    width: 404px;
+    border-width: 4px;
+    border-radius: 12px;
+
 }
 
-.desktopmessage{
-    display: none;
+.igimg{
+    height: 64px;
+    margin: 48px 0px 8px 0px;
+}
+
+.followus{
+    border-radius: 12px;
+    padding: 16px 32px 16px 32px;
+    margin: 16px 0px 48px 0px;
+}
+
+.handle{
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.followp{
+    font-size: 36px;
+    line-height: 48px;
 }
 
 }
@@ -220,14 +296,52 @@ body{
     top: 50%;
 }
 
+.logo{
+    width: 404px;
+}
+
 .logoimg{
-    width: 280px;
-    margin-bottom: 56px;
+    height: 120px;
+    margin-bottom: 32px;
 }
 
 .letteringimg{
-    width: 400px;
-    margin-bottom: 72px;
+    height: 80px;
+}
+
+.message{
+    width: 670px;
+    line-height: 64px;
+    font-size: 40px;
+    margin: 48px 0px 48px 0px;
+}
+
+.insta{
+    width: 404px;
+    border-width: 4px;
+    border-radius: 12px;
+
+}
+
+.igimg{
+    height: 64px;
+    margin: 48px 0px 8px 0px;
+}
+
+.followus{
+    border-radius: 12px;
+    padding: 16px 32px 16px 32px;
+    margin: 16px 0px 48px 0px;
+}
+
+.handle{
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.followp{
+    font-size: 36px;
+    line-height: 48px;
 }
 
 }
@@ -240,14 +354,52 @@ body{
     top: 50%;
 }
 
+.logo{
+    width: 404px;
+}
+
 .logoimg{
-    width: 280px;
-    margin-bottom: 56px;
+    height: 120px;
+    margin-bottom: 32px;
 }
 
 .letteringimg{
-    width: 400px;
-    margin-bottom: 72px;
+    height: 80px;
+}
+
+.message{
+    width: 670px;
+    line-height: 64px;
+    font-size: 40px;
+    margin: 48px 0px 48px 0px;
+}
+
+.insta{
+    width: 404px;
+    border-width: 4px;
+    border-radius: 12px;
+
+}
+
+.igimg{
+    height: 64px;
+    margin: 48px 0px 8px 0px;
+}
+
+.followus{
+    border-radius: 12px;
+    padding: 16px 32px 16px 32px;
+    margin: 16px 0px 48px 0px;
+}
+
+.handle{
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.followp{
+    font-size: 36px;
+    line-height: 48px;
 }
 
 }
@@ -260,14 +412,52 @@ body{
     top: 50%;
 }
 
+.logo{
+    width: 404px;
+}
+
 .logoimg{
-    width: 280px;
-    margin-bottom: 56px;
+    height: 120px;
+    margin-bottom: 32px;
 }
 
 .letteringimg{
-    width: 400px;
-    margin-bottom: 72px;
+    height: 80px;
+}
+
+.message{
+    width: 670px;
+    line-height: 64px;
+    font-size: 40px;
+    margin: 48px 0px 48px 0px;
+}
+
+.insta{
+    width: 404px;
+    border-width: 4px;
+    border-radius: 12px;
+
+}
+
+.igimg{
+    height: 64px;
+    margin: 48px 0px 8px 0px;
+}
+
+.followus{
+    border-radius: 12px;
+    padding: 16px 32px 16px 32px;
+    margin: 16px 0px 48px 0px;
+}
+
+.handle{
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.followp{
+    font-size: 36px;
+    line-height: 48px;
 }
 
 }
@@ -280,14 +470,52 @@ body{
     top: 50%;
 }
 
+.logo{
+    width: 404px;
+}
+
 .logoimg{
-    width: 280px;
-    margin-bottom: 56px;
+    height: 120px;
+    margin-bottom: 32px;
 }
 
 .letteringimg{
-    width: 400px;
-    margin-bottom: 72px;
+    height: 80px;
+}
+
+.message{
+    width: 670px;
+    line-height: 64px;
+    font-size: 40px;
+    margin: 48px 0px 48px 0px;
+}
+
+.insta{
+    width: 404px;
+    border-width: 4px;
+    border-radius: 12px;
+
+}
+
+.igimg{
+    height: 64px;
+    margin: 48px 0px 8px 0px;
+}
+
+.followus{
+    border-radius: 12px;
+    padding: 16px 32px 16px 32px;
+    margin: 16px 0px 48px 0px;
+}
+
+.handle{
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.followp{
+    font-size: 36px;
+    line-height: 48px;
 }
 
 }
@@ -300,14 +528,52 @@ body{
     top: 50%;
 }
 
+.logo{
+    width: 404px;
+}
+
 .logoimg{
-    width: 280px;
-    margin-bottom: 56px;
+    height: 120px;
+    margin-bottom: 32px;
 }
 
 .letteringimg{
-    width: 400px;
-    margin-bottom: 72px;
+    height: 80px;
+}
+
+.message{
+    width: 670px;
+    line-height: 64px;
+    font-size: 40px;
+    margin: 48px 0px 48px 0px;
+}
+
+.insta{
+    width: 404px;
+    border-width: 4px;
+    border-radius: 12px;
+
+}
+
+.igimg{
+    height: 64px;
+    margin: 48px 0px 8px 0px;
+}
+
+.followus{
+    border-radius: 12px;
+    padding: 16px 32px 16px 32px;
+    margin: 16px 0px 48px 0px;
+}
+
+.handle{
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.followp{
+    font-size: 36px;
+    line-height: 48px;
 }
 
 }
@@ -320,14 +586,52 @@ body{
     top: 50%;
 }
 
+.logo{
+    width: 404px;
+}
+
 .logoimg{
-    width: 280px;
-    margin-bottom: 56px;
+    height: 120px;
+    margin-bottom: 32px;
 }
 
 .letteringimg{
-    width: 400px;
-    margin-bottom: 72px;
+    height: 80px;
+}
+
+.message{
+    width: 670px;
+    line-height: 64px;
+    font-size: 40px;
+    margin: 48px 0px 48px 0px;
+}
+
+.insta{
+    width: 404px;
+    border-width: 4px;
+    border-radius: 12px;
+
+}
+
+.igimg{
+    height: 64px;
+    margin: 48px 0px 8px 0px;
+}
+
+.followus{
+    border-radius: 12px;
+    padding: 16px 32px 16px 32px;
+    margin: 16px 0px 48px 0px;
+}
+
+.handle{
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.followp{
+    font-size: 36px;
+    line-height: 48px;
 }
 
 }
