@@ -3,8 +3,7 @@ body{
 }
 
 .site{
-	height: 424px;
-	width: 424px; 
+	height: 494px;
 	margin: 0px;
     position: absolute;
     top: 50%;
@@ -22,71 +21,70 @@ body{
     text-align: center;
 }
 
-.logoimg{
-    width: 120px;
-    margin-bottom: 24px;
+.logo{
+    width: 202px;
+    display: inline-block;
 }
 
-.letteringimg{
-    width: 200px;
+.logoimg{
+    height: 72px;
     margin-bottom: 16px;
 }
 
-.whatsappimg{
-    width: 18px;
-    margin-right: 8px;
-    float: left;
+.letteringimg{
+    height: 48px;
 }
 
-.whatsappus {
-    color: white;
-    font-size: 16px;
-    font-family: "helvetica";
-    margin: 0px;
+.message{
+    width: 515px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 32px;
+    font-size: 20px;
+    margin: 24px 0px 24px 0px;
 }
 
-.messageus{
-    background-color: #25d366;
-    border: none;
-    border-radius: 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    width: 125px;
-    padding: 20px;
-}
-
-.contactus{
-    color: black;
-    font-size: 16px;
-    font-family: "helvetica";
-    margin: 0px 0px 8px 0px;
-}
-
-
-.desktopnumber{
-    border-color: black;
-    border-style: solid;
+.insta{
+    width: 202px;
+    border: solid;
     border-width: 2px;
-    border-radius: 40px;
+    border-color: #D0D0D0;
+    display: inline-block;
+    border-radius: 6px;
+
+}
+
+.igimg{
+    height: 32px;
+    margin: 24px 0px 4px 0px;
+}
+
+.followus{
+    background-color: #2783FF;
+    border: none;
+    border-radius: 6px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    width: 122px;
-    padding: 16px;
+    padding: 8px 16px 8px 16px;
+    margin: 8px 0px 24px 0px;
+}
+
+.handle{
     color: black;
-    font-size: 16px;
+    font-size: 18px;
     font-family: "helvetica";
+    font-weight: bold;
+    line-height: 28px;
     margin: 0px;
 }
 
-.button{
-    display: none;
-    margin-top: 16px;
-}
-
-.desktopmessage{
-    display: block;
+.followp{
+    color: white;
+    font-size: 18px;
+    font-family: "helvetica";
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0px;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -105,29 +103,6 @@ body{
 .letteringimg{
     width: 400px;
     margin-bottom: 72px;
-}
-
-.whatsappimg{
-    width: 44px;
-    margin-right: 20px;
-}
-
-.messageus{
-    border-radius: 100px;
-    width: 312px;
-    padding: 50px;
-}
-
-.whatsappus {
-    font-size: 40px;
-}
-
-.button{
-    display: block;
-}
-
-.desktopmessage{
-    display: none;
 }
 
 }
@@ -150,30 +125,8 @@ body{
     margin-bottom: 72px;
 }
 
-.whatsappimg{
-    width: 44px;
-    margin-right: 20px;
 }
 
-.messageus{
-    border-radius: 100px;
-    width: 312px;
-    padding: 50px;
-}
-
-.whatsappus {
-    font-size: 40px;
-}
-
-.button{
-    display: block;
-}
-
-.desktopmessage{
-    display: none;
-}
-
-}
 
 /* iPhone 4 ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
@@ -193,30 +146,8 @@ body{
     margin-bottom: 72px;
 }
 
-.whatsappimg{
-    width: 44px;
-    margin-right: 20px;
 }
 
-.messageus{
-    border-radius: 100px;
-    width: 312px;
-    padding: 50px;
-}
-
-.whatsappus {
-    font-size: 40px;
-}
-
-.button{
-    display: block;
-}
-
-.desktopmessage{
-    display: none;
-}
-
-}
 
 /* iPhone 5 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
@@ -234,29 +165,6 @@ body{
 .letteringimg{
     width: 400px;
     margin-bottom: 72px;
-}
-
-.whatsappimg{
-    width: 44px;
-    margin-right: 20px;
-}
-
-.messageus{
-    border-radius: 100px;
-    width: 312px;
-    padding: 50px;
-}
-
-.whatsappus {
-    font-size: 40px;
-}
-
-.button{
-    display: block;
-}
-
-.desktopmessage{
-    display: none;
 }
 
 }
@@ -322,29 +230,6 @@ body{
     margin-bottom: 72px;
 }
 
-.whatsappimg{
-    width: 44px;
-    margin-right: 20px;
-}
-
-.messageus{
-    border-radius: 100px;
-    width: 312px;
-    padding: 50px;
-}
-
-.whatsappus {
-    font-size: 40px;
-}
-
-.button{
-    display: block;
-}
-
-.desktopmessage{
-    display: none;
-}
-
 }
 
 /* iPhone X ----------- */
@@ -363,29 +248,6 @@ body{
 .letteringimg{
     width: 400px;
     margin-bottom: 72px;
-}
-
-.whatsappimg{
-    width: 44px;
-    margin-right: 20px;
-}
-
-.messageus{
-    border-radius: 100px;
-    width: 312px;
-    padding: 50px;
-}
-
-.whatsappus {
-    font-size: 40px;
-}
-
-.button{
-    display: block;
-}
-
-.desktopmessage{
-    display: none;
 }
 
 }
@@ -408,29 +270,6 @@ body{
     margin-bottom: 72px;
 }
 
-.whatsappimg{
-    width: 44px;
-    margin-right: 20px;
-}
-
-.messageus{
-    border-radius: 100px;
-    width: 312px;
-    padding: 50px;
-}
-
-.whatsappus {
-    font-size: 40px;
-}
-
-.button{
-    display: block;
-}
-
-.desktopmessage{
-    display: none;
-}
-
 }
 
 /* Samsung Galaxy S3 ----------- */
@@ -449,29 +288,6 @@ body{
 .letteringimg{
     width: 400px;
     margin-bottom: 72px;
-}
-
-.whatsappimg{
-    width: 44px;
-    margin-right: 20px;
-}
-
-.messageus{
-    border-radius: 100px;
-    width: 312px;
-    padding: 50px;
-}
-
-.whatsappus {
-    font-size: 40px;
-}
-
-.button{
-    display: block;
-}
-
-.desktopmessage{
-    display: none;
 }
 
 }
@@ -494,29 +310,6 @@ body{
     margin-bottom: 72px;
 }
 
-.whatsappimg{
-    width: 44px;
-    margin-right: 20px;
-}
-
-.messageus{
-    border-radius: 100px;
-    width: 312px;
-    padding: 50px;
-}
-
-.whatsappus {
-    font-size: 40px;
-}
-
-.button{
-    display: block;
-}
-
-.desktopmessage{
-    display: none;
-}
-
 }
 
 /* Samsung Galaxy S5 ----------- */
@@ -535,29 +328,6 @@ body{
 .letteringimg{
     width: 400px;
     margin-bottom: 72px;
-}
-
-.whatsappimg{
-    width: 44px;
-    margin-right: 20px;
-}
-
-.messageus{
-    border-radius: 100px;
-    width: 312px;
-    padding: 50px;
-}
-
-.whatsappus {
-    font-size: 40px;
-}
-
-.button{
-    display: block;
-}
-
-.desktopmessage{
-    display: none;
 }
 
 }
